@@ -1,0 +1,19 @@
+/**
+ *
+ * Programa para calcular area de un triángulo.
+ *
+ * @author Antonio R.P.
+ */
+
+public class LecturaDatos06 {
+  public static void main(String[] args) {
+
+    System.out.println("Área de un triángulo");
+    System.out.print("Por favor, introduzca valor de la base en cm: ");
+    double base = Double.parseDouble(System.console().readLine());
+    
+    System.out.print("Inroduzca valor de la altura en cm: ");
+    double altura = Double.parseDouble(System.console().readLine());
+    System.out.println("El área del triángulo es " + ((base * altura) / 2) + "cm^2");
+  }
+}
