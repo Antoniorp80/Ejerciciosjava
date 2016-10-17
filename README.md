@@ -12,8 +12,7 @@ ls *.jpg
 ls /usr/bin/ a*
 ```
 
-##3. Show all the files in the directory /usr/bin starting with the letter “k”, with an “a”
-in the 3rd place.
+##3. Show all the files in the directory /usr/bin starting with the letter “k”, with an “a” in the 3rd place.
 
 ``` console
 ls /usr/bin/ k?a
