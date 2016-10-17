@@ -2,15 +2,15 @@
 
 ##1. Show all the jpg pictures in the current directory.
 
-´´´ console
+``` console
 ls *.jpg
-´´´
+```
 
 ##2. Display all the files in the directory /usr/bin starting with letter “j”.
 
-´´´console
+```console
 ls /usr/bin/ a*
-´´´
+```
 
 ##3. Show all the files in the directory /usr/bin starting with the letter “k”, with an “a”
 in the 3rd place.
@@ -21,7 +21,7 @@ ls /usr/bin/ k?a
 
 ##4. Show all the files in the directory /bin ending with “n”.
 
-``console
+```console
 ls /usr/bin/ *n
 ```
 
@@ -35,11 +35,11 @@ ls -R /etc
 
 ##6. In your home directory, create another directory named test. Copy the file gzip fromthe directory /bin to test. Create a duplicate of gzip named gzip2 inside test.
 
-´´´ console
+``` console
 mkdir /home/alumno/test
 cp /bin/gzip /home/alumno/test gzip
 cp /test cp gzip gzip2
-´´´
+```
 
 ##7. Change the name of the directory test to test2. Create test3 at the same level in the directory tree as test2 and move all the files from test2 to test3. Delete test2.
 
