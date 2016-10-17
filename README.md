@@ -31,7 +31,9 @@ recursively.
 ```console
 tree /etc
 ```
+``` console
 ls -R /etc
+```
 
 ##6. In your home directory, create another directory named test. Copy the file gzip fromthe directory /bin to test. Create a duplicate of gzip named gzip2 inside test.
 
@@ -79,7 +81,7 @@ rm -f si no quieres que te pregunte y -i si sí.
 
 ##11. Move the file films.txt, which is in multimedia/video, to the directory above, at the same time renaming the file to my_films.txt.
 
-´´´ console
+``` console
 mv /home/alumno/multimedia/video/films.txt ../my_films.txt
-´´´
+```
 
