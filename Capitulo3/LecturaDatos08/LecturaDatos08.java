@@ -10,12 +10,12 @@ public class LecturaDatos08 {
     int precioHora = 12;
     System.out.println("Precio por hora = " + precioHora + "euros");
     
-    System.out.print("Por favor, introduzca las horas trabajadas ");
+    System.out.print("Por favor, introduzca las horas trabajadas");
     double horasTrabajadas = Double.parseDouble(System.console().readLine());
 
     System.out.printf("horas trabajadas %8.2f\n", horasTrabajadas);
-    System.out.printf("precio por hora  %8.2f\n", (float)precioHora);
+    System.out.printf("precio por hora  %8.2f\n", precioHora);
     System.out.printf("----------------------\n");
-    System.out.printf("Total          %8.2f\n", (horasTrabajadas * precioHora));
+    System.out.printf("Total          %8.2f\n", (baseImponible * precioHora));
   }
 }

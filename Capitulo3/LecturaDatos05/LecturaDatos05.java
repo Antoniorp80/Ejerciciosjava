@@ -7,12 +7,12 @@
 
 public class LecturaDatos05 {
   public static void main(String[] args) {
-       System.out.println("Área de un rectángulo");
-    System.out.print("Por favor, introduzca valor de la base en cms: ");
+       System.out.println("Área de un triángulo");
+    System.out.print("Por favor, introduzca valor de la base : ");
     double base = Double.parseDouble(System.console().readLine());
     
-    System.out.print("Inroduzca valor de la altura en cms: ");
+    System.out.print("Inroduzca valor de la altura : ");
     double altura = Double.parseDouble(System.console().readLine());
-    System.out.println("El área del rectángulo es " + (base * altura) + "cm^2");
+    System.out.println("El área del triángulo es " + (base * altura)/2);
   }
 }

@@ -14,6 +14,6 @@ public class LecturaDatos12 {
     System.out.print("Inroduzca valor de la nota final deseada : ");
     double notaFinal = Double.parseDouble(System.console().readLine());
     
-    System.out.println("el valor de la segunda nota debe ser " + ((notaFinal*100) - (nota1*40))/60);
+    System.out.println("el valor de la segunda nota debe ser " + ((notaFinal - (nota1*04)/0.6));
   }
 }
