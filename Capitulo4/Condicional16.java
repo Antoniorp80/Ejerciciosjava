@@ -5,7 +5,6 @@
  * @author Antonio R.P.
  */
 public class Condicional16 {
-
   public static void main(String[] args) {
     String respuesta;
     int puntos = 0 ;
@@ -84,7 +83,7 @@ public class Condicional16 {
     }
     
     if ( puntos >= 22 ) {
-      System.out.print("Ve buscando un buen abogado y sácale los cuartos, está a punto de dejarte por él/la otro/otra.");
+      System.out.print("Ve buscando un buen abogado y sácale los cuartos, está a punto de dejarte por él/la otr@.");
     }
   }
 }

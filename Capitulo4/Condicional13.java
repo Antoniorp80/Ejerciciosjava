@@ -15,6 +15,7 @@ public class  Condicional13 {
     int b = Integer.parseInt(System.console().readLine());
     int c = Integer.parseInt(System.console().readLine());
 
+// esto siguiente ordena el primero con el segundo, el segundo con el tercero y primero con el segundo.//
     if (a > b) {
       aux = a;
       a = b;
