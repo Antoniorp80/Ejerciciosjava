@@ -16,6 +16,8 @@ public class  Condicional10 {
     System.out.println("Por favor, introduzca su día de nacimiento: ");
     int dia = Integer.parseInt(System.console().readLine());
     
+
+    
     switch(mes) {
       case 1:
         if (dia < 21) {
