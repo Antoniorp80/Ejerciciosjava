@@ -22,7 +22,7 @@ public class Array07 {
     }
     
     // Introduce valor que quiere sustituir y por cuál//
-    System.out.print("\n¿Qué número de los introducidos quiere sustituit?: ");
+    System.out.print("\n¿Qué número quiere sustituir?: ");
     int valor1 = Integer.parseInt(System.console().readLine());
     System.out.print("Introduzca el valor por el que quiere sustituirlo: ");
     int valor2 = Integer.parseInt(System.console().readLine());

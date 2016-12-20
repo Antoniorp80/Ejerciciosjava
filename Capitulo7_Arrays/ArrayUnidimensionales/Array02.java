@@ -35,9 +35,9 @@ public class Array02 {
     System.out.println("│\n├────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤");    
     System.out.print("│ Valor  ");
     for (int i = 0; i < 10; i++) {
-      System.out.printf("│ %4s", simbolo[i] + " ");
+      System.out.printf("│ %4c", simbolo[i]==0?' ':simbolo[i]);
     }
     System.out.println("│\n└────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
-    System.out.println("│\n a los valores no asignados en el array automáticamente se les asigna el valor 0");
+    System.out.println("│\n a los valores no asignados en el array automáticamente se le da un carácter vacío");
   }
 }
