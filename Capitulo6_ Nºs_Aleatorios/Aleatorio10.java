@@ -6,17 +6,46 @@
  *
  * @author Antonio R.P.
  */
-public class Aleatorio09 {
+public class Aleatorio10 {
   public static void main(String[] args) {
-    int n = 0;
+    System.out.println ("Pintalíneas");
+    int r = 0;
     int largo = 0;
     String relleno = "";
     
     for (int i= 1; i <= 10; i++) {
-      largo = (Math.random()*40) + 1; 
+      largo = (int)(Math.random()* 40) + 1;
+      r = (int)(Math.random()* 6 ); 
       
-    
-  System.out.println("\n Has generado " + contador + " números.");
+      switch(r) {
+        case 0:
+          relleno = "*";
+          break;
+          
+        case 1:
+          relleno = "-";
+          break;
+        
+        case 2:
+          relleno = "=";
+          break;
+          
+        case 3:
+          relleno = ".";
+          break;
+          
+        case 4:
+          relleno = "|";
+          break;
+        case 5:
+          relleno = "@";
+          break;
+        default:
+      }
+      for (int a = 0; a <= largo; a++) {
+        System.out.print (relleno);
+      }
+      System.out.println();
+    }
   }
 }
- 
